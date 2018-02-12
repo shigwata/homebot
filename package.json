@@ -4,11 +4,15 @@
   "private": true,
   "author": "shigwata <shigwata01@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "scripts": {
+    "start": "hubot-dotenv -n homebot --adapter slack"
+  },
   "dependencies": {
     "coffee-script": "^1.12.7",
     "google-home-notifier": "^1.2.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
+    "hubot-dotenv": "^1.0.0",
     "hubot-google-images": "^0.2.7",
     "hubot-google-translate": "^0.2.1",
     "hubot-help": "^0.2.2",
