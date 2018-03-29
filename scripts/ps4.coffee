@@ -20,6 +20,8 @@ wake = (res) ->
         when 'torne', 'tv'          then ps4.startTitle('CUSA00442').then done
         when 'youtube'              then ps4.startTitle('CUSA01065').then done
         when 'amazonvideo', 'video' then ps4.startTitle('CUSA03099').then done
+        when 'hulu'                 then ps4.startTitle('CUSA00399').then done
+        when 'Twitch'               then ps4.startTitle('CUSA03408').then done
         else                             res.send "unknown command '#{cmd}'"
 
 process.on 'unhandledRejection', console.dir
