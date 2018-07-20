@@ -22,5 +22,5 @@ jobs:
       - run: npm ci
       - save_cache:
           paths:
-            - $HOME/.npm
+            - "$HOME/.npm"
           key: v1-dot-npm-{{ checksum "package-lock.json" }}
