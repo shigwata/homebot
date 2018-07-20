@@ -1,0 +1,26 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.11.3
+
+    working_directory: ~/repo
+
+    steps:
+      - run: printenv
+
+      - run: sudo npm install -g npm@5.7
+      - run: node --version
+      - run: npm --version
+
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dot-npm-{{ checksum "package-lock.json" }}
+          - v1-dot-npm-
+      - run: npm ci
+      - save_cache:
+          paths:
+            - $HOME/.npm
+          key: v1-dot-npm-{{ checksum "package-lock.json" }}
