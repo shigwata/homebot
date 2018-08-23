@@ -8,18 +8,18 @@
     "start": "hubot-dotenv -n homebot --adapter slack"
   },
   "dependencies": {
-    "coffee-script": "^1.12.7",
-    "google-home-notifier": "^1.2.0",
-    "hubot": "^2.19.0",
-    "hubot-broadlink-rm": "^0.7.1",
+    "coffee-script": "1.12.7",
+    "google-home-notifier": "1.2.0",
+    "hubot": "2.19.0",
+    "hubot-broadlink-rm": "0.7.1",
     "hubot-diagnostics": "0.0.2",
-    "hubot-dotenv": "^1.0.0",
-    "hubot-help": "^0.2.2",
+    "hubot-dotenv": "1.0.0",
+    "hubot-help": "0.2.2",
     "hubot-redis-brain": "0.0.4",
-    "hubot-rss-reader": "^0.8.3",
-    "hubot-scripts": "^2.17.2",
-    "hubot-slack": "^4.4.0",
-    "ps4-waker": "^1.4.3"
+    "hubot-rss-reader": "0.8.3",
+    "hubot-scripts": "2.17.2",
+    "hubot-slack": "4.4.0",
+    "ps4-waker": "1.4.3"
   },
   "engines": {
     "node": "0.10.x"
