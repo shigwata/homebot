@@ -12,7 +12,7 @@
     "google-home-notifier": "1.2.0",
     "hubot": "3.3.2",
     "hubot-broadlink-rm": "0.7.2",
-    "hubot-diagnostics": "1.0.0",
+    "hubot-diagnostics": "1.2.1",
     "hubot-dotenv": "1.0.0",
     "hubot-help": "1.0.1",
     "hubot-redis-brain": "1.0.0",
